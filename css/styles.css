@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding: 22px 100px;
+    z-index: 1;
+}
+.name-content img {
+    vertical-align: middle;
+    margin-right: 15px;
+    display: inline-block;
+}  
+.name-content{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 195px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    color: #696969;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-btn {
+    padding: 13px 50px;
+    background-color: #FF5403;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    margin-left: 145px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-banner {
+    position: relative;
+}
+.banner {
+    width: 100%;
+    height: 722px;
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    text-align: center;
+}
+.banner-text button {
+    border: none;
+    cursor: pointer;
+    padding: 13px 50px;
+    background-color: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.banner-text h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 6.72px;
+}
+.banner-text p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.6px
+}
+.places-content {
+    width: 1312px;
+    height: 1182px;
+    margin: auto;
+    margin-bottom: 112px;
+}
+.places-content h2 {
+    margin-top: 282px;
+    text-align: center;
+    color: #041562;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
+}
+.places-content p {
+    color: #626262;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    margin-bottom: 75px;
+}
+.box-1 {
+    margin-bottom: 50px;
+}
+.places-content .img {
+    margin-right: 46px;
+}
+.box-2 {
+    margin-bottom: 75px;
+}
+.places-content button {
+    border: none;
+    cursor: pointer;
+    padding: 13px 50px;
+    background-color: #FF5403;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 544px;
+}
+.second-page {
+    width: 1312px;
+    height: 720px;
+    margin: auto;
+}
+.second-page .name {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.name h2 {
+    color: #041562;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.name p {
+    color: #626262;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.item {
+    width: 404px;
+    height: 549px;
+    display: inline-block;
+    background-color: white;
+    cursor: pointer;
+}
+.item h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.item button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin-right: 5px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.item .rate {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    vertical-align: middle;
+    display: inline-block;
+}
+.item .location  {
+    color: #626262;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+.item .price {
+    color: #020202;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+}
+.item span {
+    color: #DA1212;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+}
+.item button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin-right: 5px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.hotel-2 {
+    margin: 0px 46px;
+}
+footer {
+    margin-top: 172px;
+    width: 100%;
+    height: 519px;
+    background-color: #19224D;
+    padding: 108px 100px;
+}
+.footer-logo-content {
+    
+    height: 249px;
+    width: 337px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.footer-logo {
+    width: 154.318px;
+    height: 161.249px;
+    margin-bottom: 28px;
+}
+.destination-content {
+    height: 249px;
+    width: 337px;
+    margin: 0px 190px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.destination-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.destination-content div {
+    width: 130px;
+    height: 207px;
+    bottom: 0px;
+    left: 0px;
+}
+.destination-content p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
