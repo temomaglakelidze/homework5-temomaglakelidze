@@ -6,7 +6,7 @@ header {
     height: 100px;
     background-color: white;
     padding: 22px 100px;
-    z-index: 1;
+    z-index: 10;
 }
 .name-content img {
     vertical-align: middle;
@@ -22,7 +22,7 @@ nav {
     vertical-align: middle;
     margin-left: 195px;
 }
-nav li {
+li {
     display: inline-block;
     margin-right: 50px;
     color: #696969;
@@ -42,9 +42,7 @@ nav li {
     font-size: 18px;
     font-weight: 600;
 }
-.main-banner {
-    position: relative;
-}
+
 .banner {
     width: 100%;
     height: 722px;
@@ -52,7 +50,7 @@ nav li {
 }
 .banner-text {
     position: absolute;
-    top: 190px;
+    top: 350px;
     width: 100%;
     text-align: center;
 }
@@ -106,14 +104,68 @@ nav li {
     letter-spacing: 0.9px;
     margin-bottom: 75px;
 }
-.box-1 {
-    margin-bottom: 50px;
+.img-1 {
+    position: relative;
+    margin: 0px 46px 50px 0px;
 }
-.places-content .img {
-    margin-right: 46px;
+.sea {
+    position: absolute;
+    width: 631px;
+    height: 415px;
+    text-align: center;
+    color: white;    
+    display: inline-block;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 400;
+    z-index: 1;
 }
-.box-2 {
-    margin-bottom: 75px;
+.img-2 {
+    position: relative;
+    margin: 0px 0px 50px 0px;
+}
+.beach {
+    position: absolute;
+    width: 631px;
+    height: 415px;
+    text-align: center;
+    color: white;    
+    display: inline-block;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 400;
+    z-index: 1;
+}
+.img-3 {
+    margin: 0px 46px 0px 0px;
+    position: relative;
+}
+.mountain {
+    position: absolute;
+    width: 631px;
+    height: 415px;
+    text-align: center;
+    color: white;    
+    display: inline-block;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 400;
+    z-index: 1;
+}
+.img-4 {
+    position: relative;
+}
+.volcano {
+    position: absolute;
+    width: 631px;
+    height: 415px;
+    text-align: center;
+    color: white;    
+    display: inline-block;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 400;
+    z-index: 1;
 }
 .places-content button {
     border: none;
@@ -122,9 +174,10 @@ nav li {
     background-color: #FF5403;
     color: #FFF;
     font-family: Inter;
-    font-size: 18px;
+    
     font-weight: 600;
     margin-left: 544px;
+    margin-top: 75px;
 }
 .second-page {
     width: 1312px;
@@ -257,4 +310,42 @@ footer {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 15px;
+}
+.contact-content {
+        height: 249px;
+        width: 337px;
+        vertical-align: middle;
+        display: inline-block;
+}
+.contact-content h2 {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+.contact-content p {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.social-media {
+    margin-top: 23px;
+}
+.social-media span{
+    
+    color: #FF5403;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.icons img {
+    margin-right: 15px;
 }
